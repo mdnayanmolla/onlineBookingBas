@@ -2,13 +2,15 @@ import { Input, Form, Divider } from "antd";
 import TopNavbar from "../layouts/TopNavbar";
 import Primarybtn from "../components/buttons/Primarybtn";
 import { Link } from "react-router-dom";
-import WhiteBtn from "../components/buttons/WhiteBtn";
+// import WhiteBtn from "../components/buttons/WhiteBtn";
+import { TiSocialFacebook } from "react-icons/ti";
+import { FaGooglePlusG } from "react-icons/fa6";
 
 
 const SignIn = () => {
     return (
         <div className="">
-            <TopNavbar />
+            <TopNavbar title={"Sign in to your account"} />
             <div className="py-10 px-6">
                 <Form
                     name="login"
@@ -62,10 +64,13 @@ const SignIn = () => {
 
                     </Link>
                     <div>
+                    <Link to="/verification">
                         <Primarybtn title={'SIGN IN'} />
+                    </Link>
                     </div>
                 </Form>
-                <div className="px-16 py-8">
+               
+                <div className="px-16 py-2">
                 <Divider
                     style={{
                         borderColor: '#dee2e6',
@@ -74,9 +79,19 @@ const SignIn = () => {
                    <span className="font-normal"> OR</span>
                 </Divider>
                 </div>
-                <div>
-                    <WhiteBtn title={'LOGIN WITH FACEBOOK'}></WhiteBtn>
+                <div className="space-y-4">
+                    <button className="bg-white border border-blue-600 px-6 w-full py-3 text-[14px] rounded-xl text-blue-600 flex items-center justify-center space-x-4"><FaGooglePlusG className="text-xl" /> <span>SIGN UP WITH GOOGLE</span> 
+                    </button>
+                    <button className="bg-white border border-primary px-6 w-full py-3 text-[14px] rounded-xl text-primary flex items-center justify-center space-x-4"><TiSocialFacebook  className="text-xl"/>
+                    <span>SIGN UP WITH FACEBOOK</span> 
+                    </button>
+                    {/* <WhiteBtn title={'LOGIN WITH FACEBOOK'}></WhiteBtn> */}
                 </div>
+                
+               <div className="text-center text-[14px] pt-4">
+                  <span className="text-[#444]">   Not a member ? <Link to="/signup" className="text-primary">Sign Up</Link></span>
+               </div>
+                
             </div>
         </div>
     );
