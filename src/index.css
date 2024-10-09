@@ -50,7 +50,12 @@
   h3 {
     font-size: 1.20rem;
   }
-
+  h3 {
+    font-size: 1.20rem;
+  }
+  h5 {
+    font-size: 1rem; /* Custom size in rem */
+  }
   p {
     margin-bottom: 1rem;
     color:#6c757d;

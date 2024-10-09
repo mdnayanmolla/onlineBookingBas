@@ -1,35 +1,19 @@
-import { Form, Select } from "antd";
+import MenuBar from "../../layouts/MenuBar";
 import TopNavbar from "../../layouts/TopNavbar";
-import { Option } from "antd/es/mentions";
-
+import BookingForm from "./BookingForm";
+import Offer from "./Offer";
+import Support from "./Support";
 
 const Home = () => {
     return (
-        <div>
-            <TopNavbar/>
-            <div className="bg-primary py-5 px-4">
-                <Form 
-                name="home"
-                 layout="vartical"
-                 className="bg-white px-4"
-                >
-                 <Form.Item>
-                    <Select
-                      showSearch
-                    >
-                    <Option>Dhaka</Option>
-                    <Option>Madaripur</Option>
-                    <Option>Borishal</Option>
-                    <Option>Khulna</Option>
-                    <Option>Cumilla</Option>
-                    <Option>Tangail</Option>
-                    <Option>Sylhet</Option>
-                    <Option>Rangpur</Option>
-                    </Select>
-                 </Form.Item>
-                </Form>
+        <div className="relative">
+            <TopNavbar />
+            <div className="bg-primary py-6 px-4">
+              <BookingForm/>
             </div>
-
+            <Support/>
+            <Offer/>
+            <MenuBar/>
         </div>
     );
 };

@@ -14,6 +14,9 @@ export default {
       borderRadius: {
         '2xl': '1rem', // Custom value without overwriting defaults
       },
+      boxShadow: {
+        'shadow-md': 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+      },
       screens: {
         '4xl': { max: '1699px' },
         '3xl': { max: '1599px' },

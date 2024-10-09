@@ -6,6 +6,7 @@ import SignIn from "../../authentication/SignIn";
 import SignUp from "../../authentication/SignUp";
 import Verifaction from "../../authentication/Verifaction";
 import Home from "../../container/home/Home";
+import Tickets from "../../container/tickets/Tickets";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -19,6 +20,7 @@ const Index = () => {
             <Route path="/signup" element={<SignUp/>}/>
             <Route path="/verification" element={<Verifaction/>}/>
             <Route path="/home" element={<Home/>}/>
+            <Route path="/tickets" element={<Tickets/>}/>
         </Routes>
     );
 };
