@@ -5,6 +5,7 @@ import { TbMapSearch } from "react-icons/tb";
 import { IoLocation } from "react-icons/io5";
 import Primarybtn from "../../components/buttons/Primarybtn";
 import { FaRegCalendarAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const BookingForm = () => {
     return (
       <>
@@ -58,7 +59,9 @@ const BookingForm = () => {
                        <DatePicker className="w-full"/>
                     </Form.Item>
                     <div>
+                       <Link to="/listing">
                         <Primarybtn title="SEARCH"/>
+                       </Link>
                     </div>
 
                 </Form>

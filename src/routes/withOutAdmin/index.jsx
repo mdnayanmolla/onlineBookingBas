@@ -7,6 +7,9 @@ import SignUp from "../../authentication/SignUp";
 import Verifaction from "../../authentication/Verifaction";
 import Home from "../../container/home/Home";
 import Tickets from "../../container/tickets/Tickets";
+import Notification from "../../container/notification/Notification";
+import Account from "../../container/account/Account";
+import Listing from "../../container/listing/Listing";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -21,6 +24,9 @@ const Index = () => {
             <Route path="/verification" element={<Verifaction/>}/>
             <Route path="/home" element={<Home/>}/>
             <Route path="/tickets" element={<Tickets/>}/>
+            <Route path="/notification" element={<Notification/>}/>
+            <Route path="/account" element={<Account/>}/>
+            <Route path="/listing" element={<Listing/>}/>
         </Routes>
     );
 };
