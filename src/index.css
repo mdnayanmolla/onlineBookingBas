@@ -15,6 +15,74 @@
   @apply flex justify-center space-x-2 mt-4;
 }
 
+/* Remove padding and margin from tab items */
+.ant-tabs-tab {
+  margin: 10px !important;
+  padding: 0px !important;
+  @apply bg-primary text-white;
+}
+
+/* Remove padding from the tab button */
+.ant-tabs-tab-btn {
+  margin: 5 !important;
+  padding: 10px !important;
+  /* @apply bg-primary text-white; */
+  @apply text-primary ;
+}
+.ant-tabs-tab-btn:hover {
+  @apply bg-primary text-white;
+  color: #fff !important; /* Ensure text color remains white */
+}
+/* Remove padding and margin from the nav list */
+.ant-tabs-nav-list {
+  padding: 0 !important;
+  margin: 10px !important;
+}
+
+/* Remove bottom margin from the tab bar */
+.ant-tabs-top > .ant-tabs-nav {
+  margin-bottom: 0 !important;
+  border:none !important;
+}
+
+/* Ensure content area also has no margin or padding */
+.ant-tabs-content-holder {
+  margin: 0 !important;
+  padding: 0 !important;
+  border:none  !important
+}
+
+/* Apply Tailwind styles to the active tab */
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  @apply bg-primary text-white;
+  color: #fff !important; /* Ensure text color remains white */
+  border:none !important
+}
+
+/* Remove borders from all Ant Design tabs */
+.ant-tabs-tab {
+  border: none !important;  /* Remove border from individual tabs */
+}
+
+/* Remove border from the active tab */
+.ant-tabs-tab.ant-tabs-tab-active {
+  border: none !important;  /* Remove border from active tab */
+}
+
+/* Remove the underline or border below the tab navigation */
+.ant-tabs > .ant-tabs-nav::before {
+  border: none !important;  /* Remove the bottom border */
+}
+/* Customize the tab content background */
+.ant-tabs-content-holder {
+  @apply bg-primary text-white;
+}
+
+/* Optional: Adjust the tab appearance when hovered */
+.ant-tabs-tab:hover {
+  @apply bg-primary text-white;
+}
+
 
 @layer base {
   /* Custom global styles */

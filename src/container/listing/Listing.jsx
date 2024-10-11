@@ -27,170 +27,182 @@ const Listing = () => {
                 </div>
 
                 <div className="grid grid-cols-2 bg-white justify-center gap-6">
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus1} alt="" />
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus1} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Ena Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                        <h5 className="text-[#444]">Ena Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
-                        </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
-                        </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
-                        </div>
-                    </div>
+                    </Link>
 
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus2} alt="" />
-                        </div>
-                        <h5 className="text-[#444]">Shoag Scania Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
-                        </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
-                        </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
-                        </div>
-                    </div>
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus3} alt="" />
-                        </div>
-                        <h5 className="text-[#444]">Hanif Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
-                        </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
-                        </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
-                        </div>
-                    </div>
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus1} alt="" />
-                        </div>
-                        <h5 className="text-[#444]">Green Line Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
-                        </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
-                        </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
-                        </div>
-                    </div>
 
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus2} alt="" />
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus2} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Shoag Scania Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                        <h5 className="text-[#444]">Shamoly Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
+                    </Link>
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus3} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Hanif Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
+                    </Link>
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus1} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Green Line Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
+                    </Link>
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus2} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Shamoly Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="px-4  py-4 space-y-3 border my-4">
-                        <div className="bg-[#e8ebef] rounded-md">
-                            <img src={bus3} alt="" />
+                    </Link>
+                    <Link to="/bus-details">
+                        <div className="px-4  py-4 space-y-3 border my-4">
+                            <div className="bg-[#e8ebef] rounded-md">
+                                <img src={bus3} alt="" />
+                            </div>
+                            <h5 className="text-[#444]">Hundai Poribohon</h5>
+                            <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
+                            <div className="flex space-x-1 items-center">
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
+                                <span className="text-[#444] text-[10px]">4.0</span>
+                            </div>
+                            <p
+                                className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
+                                <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
+                            </p>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
+                                <p className="text-[#444]">05 May,12.00am</p>
+                            </div>
+                            <div>
+                                <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
+                                <p className="text-[#444]">Dhaka To Bugora</p>
+                            </div>
                         </div>
-                        <h5 className="text-[#444]">Hundai Poribohon</h5>
-                        <p className="text-[12px] text-primary">Dhaka To Chitagong</p>
-                        <div className="flex space-x-1 items-center">
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <Link><span className="text-primary text-[10px]"><FaStar /></span></Link>
-                            <span className="text-[#444] text-[10px]">4.0</span>
-                        </div>
-                        <p
-                            className="flex justify-between"><span className="flex items-center text-[12px] space-x-2"><GiLightningFrequency className="text-primary mr-2" /> AC </span>
-                            <span className="flex items-center text-[12px] space-x-2"><FaBusSimple className="text-primary mr-2" /> 2/1</span>
-                        </p>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiClock2 /> </span>    <span className="text-[#444]">Journey Start</span></p>
-                            <p className="text-[#444]">05 May,12.00am</p>
-                        </div>
-                        <div>
-                            <p className="flex items-center text-[12px]">  <span className="text-primary mr-2"><CiLocationOn /> </span>    <span className="text-[#444]">From - To </span></p>
-                            <p className="text-[#444]">Dhaka To Bugora</p>
-                        </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

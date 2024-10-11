@@ -10,6 +10,7 @@ import Tickets from "../../container/tickets/Tickets";
 import Notification from "../../container/notification/Notification";
 import Account from "../../container/account/Account";
 import Listing from "../../container/listing/Listing";
+import BusDatiles from "../../container/busDtails/BusDatiles";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -27,6 +28,8 @@ const Index = () => {
             <Route path="/notification" element={<Notification/>}/>
             <Route path="/account" element={<Account/>}/>
             <Route path="/listing" element={<Listing/>}/>
+            <Route path="/bus-details" element={<BusDatiles/>}/>
+        
         </Routes>
     );
 };
