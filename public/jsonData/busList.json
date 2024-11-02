@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "City Express",
+        "from": "New York",
+        "to": "Boston",
+        "type": "Luxury",
+        "seat_type": "Recliner",
+        "image": "https://i.ibb.co.com/JcS5820/item1.png",
+        "start_time": "08:00",
+        "end_time": "12:00"
+    },
+    {
+        "id": 2,
+        "name": "Mountain Rider",
+        "from": "Denver",
+        "to": "Aspen",
+        "type": "Standard",
+        "seat_type": "Regular",
+        "image": "https://i.ibb.co.com/pj5Xv7g/item2.png",
+        "start_time": "07:30",
+        "end_time": "11:30"
+    },
+    {
+        "id": 3,
+        "name": "Sunset Express",
+        "from": "Los Angeles",
+        "to": "San Francisco",
+        "type": "Sleeper",
+        "seat_type": "Sleeper",
+        "image": "https://i.ibb.co.com/rvC04VL/item3.png",
+        "start_time": "22:00",
+        "end_time": "06:00"
+    },
+    {
+        "id": 4,
+        "name": "Coastal Cruiser",
+        "from": "Miami",
+        "to": "Orlando",
+        "type": "Express",
+        "seat_type": "Regular",
+        "image": "https://i.ibb.co.com/pj5Xv7g/item2.png",
+        "start_time": "09:00",
+        "end_time": "13:00"
+    },
+    {
+        "id": 5,
+        "name": "Northern Star",
+        "from": "Chicago",
+        "to": "Minneapolis",
+        "type": "Luxury",
+        "seat_type": "Recliner",
+        "image": "https://example.com/northernstar.jpg",
+        "start_time": "10:00",
+        "end_time": "16:00"
+    },
+    {
+        "id": 6,
+        "name": "Desert Trail",
+        "from": "Las Vegas",
+        "to": "Phoenix",
+        "type": "Standard",
+        "seat_type": "Regular",
+        "image": "https://i.ibb.co.com/rvC04VL/item3.png",
+        "start_time": "14:00",
+        "end_time": "18:00"
+    }
+]

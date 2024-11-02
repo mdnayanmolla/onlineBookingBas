@@ -84,7 +84,7 @@ const BusDatiles = () => {
 
                         <TabPane
                             tab={
-                                <span className="flex items-center ">
+                                <span className="flex items-center">
                                     <IoInformationCircle className="m-0 p-0" />
                                     <span className="ml-2">Info</span>
                                 </span>
