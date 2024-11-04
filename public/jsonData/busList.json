@@ -1,68 +1,68 @@
 [
     {
         "id": 1,
-        "name": "City Express",
-        "from": "New York",
-        "to": "Boston",
-        "type": "Luxury",
-        "seat_type": "Recliner",
+        "name": "Shamoly",
+        "from": "Chitagong",
+        "to": "Dhaka",
+        "type": "Ac",
+        "seat_type": "2/1",
         "image": "https://i.ibb.co.com/JcS5820/item1.png",
-        "start_time": "08:00",
-        "end_time": "12:00"
+        "start_date": "1 March 8.00 am",
+        "end_date": "1 March 4.00 pm"
     },
     {
         "id": 2,
-        "name": "Mountain Rider",
-        "from": "Denver",
-        "to": "Aspen",
-        "type": "Standard",
-        "seat_type": "Regular",
+        "name": "Ena",
+        "from": "Dhaka",
+        "to": "Boridhal",
+        "type": "Ac",
+        "seat_type": "2/2",
         "image": "https://i.ibb.co.com/pj5Xv7g/item2.png",
-        "start_time": "07:30",
-        "end_time": "11:30"
+        "start_date": "1 June 8.00 am",
+        "end_date": "1 June 4.00 pm"
     },
     {
         "id": 3,
-        "name": "Sunset Express",
-        "from": "Los Angeles",
-        "to": "San Francisco",
-        "type": "Sleeper",
-        "seat_type": "Sleeper",
+        "name": "Shohag ",
+        "from": "Khulna",
+        "to": "Dhaka",
+        "type": "Non Ac",
+        "seat_type": "1/2",
         "image": "https://i.ibb.co.com/rvC04VL/item3.png",
-        "start_time": "22:00",
-        "end_time": "06:00"
+        "start_date": "5 May 8.00 am",
+        "end_date": "5 May 4.00 pm"
     },
     {
         "id": 4,
-        "name": "Coastal Cruiser",
-        "from": "Miami",
-        "to": "Orlando",
-        "type": "Express",
-        "seat_type": "Regular",
+        "name": "Shamoly",
+        "from": "Cumilla",
+        "to": "Dhaka",
+        "type": "Ac",
+        "seat_type": "1/1",
         "image": "https://i.ibb.co.com/pj5Xv7g/item2.png",
-        "start_time": "09:00",
-        "end_time": "13:00"
+        "start_date": "28 April 5.00 am",
+        "end_date": "1 January 2.00 pm"
     },
     {
         "id": 5,
-        "name": "Northern Star",
-        "from": "Chicago",
-        "to": "Minneapolis",
-        "type": "Luxury",
-        "seat_type": "Recliner",
-        "image": "https://example.com/northernstar.jpg",
-        "start_time": "10:00",
-        "end_time": "16:00"
+        "name": "Ena",
+        "from": "Ragpur",
+        "to": "Dhaka",
+        "type": "Ac",
+        "seat_type": "2/2",
+        "image": "https://i.ibb.co.com/rvC04VL/item3.png",
+        "start_date": "5 January 10.00 am",
+        "end_date": "5 January 6.00 pm"
     },
     {
         "id": 6,
-        "name": "Desert Trail",
-        "from": "Las Vegas",
-        "to": "Phoenix",
-        "type": "Standard",
-        "seat_type": "Regular",
+        "name": "Hanif Enterpirse",
+        "from": "Dhaka",
+        "to": "Sylhet",
+        "type": "Non Ac",
+        "seat_type": "2/2",
         "image": "https://i.ibb.co.com/rvC04VL/item3.png",
-        "start_time": "14:00",
-        "end_time": "18:00"
+        "start_date": "1 March 8.00 am",
+        "end_date": "1 March 4.00 pm"
     }
 ]
