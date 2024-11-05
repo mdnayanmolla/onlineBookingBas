@@ -11,6 +11,8 @@ import Notification from "../../container/notification/Notification";
 import Account from "../../container/account/Account";
 import Listing from "../../container/listing/Listing";
 import BusDatiles from "../../container/busDtails/BusDatiles";
+import ErrorPage from "../../container/notFound/ErrorPage";
+import SearchData from "../../container/searchData/SearchData";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -29,6 +31,8 @@ const Index = () => {
             <Route path="/account" element={<Account/>}/>
             <Route path="/listing" element={<Listing/>}/>
             <Route path="/bus-details" element={<BusDatiles/>}/>
+            <Route path="/not-found" element={<ErrorPage/>}/>
+            <Route path="/search-result" element={<SearchData/>}/>
         
         </Routes>
     );

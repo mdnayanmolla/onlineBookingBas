@@ -39,31 +39,31 @@ const Sidebar = ({ toggleSidebar }) => {
               <div className="bg-white h-screen flex flex-col">
               <ul className="overflow-y-auto max-h-[70vh] sidebar-scroll"> {/* Adjust height as needed */}
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2 text-[14px]">  <span><FaUnsplash /></span> <span>Splash</span> </Link>
+                        <Link to='/' className="flex items-center space-x-2 text-[14px]">  <span><FaUnsplash /></span> <span>Splash</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2 "><span><PiAirplaneLanding /></span> <span>Landing</span> </Link>
+                        <Link to='/landing' className="flex items-center space-x-2 "><span><PiAirplaneLanding /></span> <span>Landing</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"><span><FaPlay /></span> <span>Get Started</span> </Link>
+                        <Link to='/get-started' className="flex items-center space-x-2"><span><FaPlay /></span> <span>Get Started</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"><span><IoKey /></span> <span>Authentication</span> </Link>
+                        <Link to='' className="flex items-center space-x-2"><span><IoKey /></span> <span>Authentication</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]' >
-                        <Link className="flex items-center space-x-2"><span><FaHome /></span> <span>Home Page</span> </Link>
+                        <Link to='/home' className="flex items-center space-x-2"><span><FaHome /></span> <span>Home Page</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"> <span><BiSolidOffer /></span> <span>Offers</span> </Link>
+                        <Link  className="flex items-center space-x-2"> <span><BiSolidOffer /></span> <span>Offers</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"><span><CiViewList /> </span> <span>Listing</span> </Link>
+                        <Link to='/listing' className="flex items-center space-x-2"><span><CiViewList /> </span> <span>Listing</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"> <span><TbListDetails /></span> <span>Bus Details</span> </Link>
+                        <Link to='/bus-details' className="flex items-center space-x-2"> <span><TbListDetails /></span> <span>Bus Details</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
-                        <Link className="flex items-center space-x-2"><span><PiSeatBold /></span> <span>Select Seat</span> </Link>
+                        <Link to='/not-found' className="flex items-center space-x-2"><span><PiSeatBold /></span> <span>Select Seat</span> </Link>
                     </li>
                     <li className=' border-b px-10 hover:bg-[#edf1f4] duration-500 py-3 text-[14px]'>
                         <Link className="flex items-center space-x-2"><span><CiBookmarkCheck /></span> <span>Checkout</span> </Link>
