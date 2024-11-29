@@ -51,6 +51,14 @@
   padding: 0 !important;
   border:none  !important
 }
+.custom-radio .ant-radio-inner {
+  border-color: #dc3545; /* Red border for unselected */
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner {
+  background-color: #dc3545; /* Red background when selected */
+  border-color: #dc3545; /* Red border when selected */
+}
 
 /* Apply Tailwind styles to the active tab */
 .ant-tabs-tab-active .ant-tabs-tab-btn {

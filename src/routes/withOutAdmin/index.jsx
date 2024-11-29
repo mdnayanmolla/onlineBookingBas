@@ -14,6 +14,8 @@ import BusDatiles from "../../container/busDtails/BusDatiles";
 import ErrorPage from "../../container/notFound/ErrorPage";
 import SearchData from "../../container/searchData/SearchData";
 import SelectSeat from "../../container/selectSeat/SelectSeat";
+import Payment from "../../payment/Payment";
+import AddBank from "../../payment/AddBank";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -35,6 +37,8 @@ const Index = () => {
             <Route path="/not-found" element={<ErrorPage/>}/>
             <Route path="/search-result" element={<SearchData/>}/>
             <Route path="/select-seat" element={<SelectSeat/>}/>
+            <Route path="/payment" element={<Payment/>} />
+            <Route path="/add-bank/:id" element={<AddBank/>} />
         
         </Routes>
     );
