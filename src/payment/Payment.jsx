@@ -72,20 +72,20 @@ const Payment = () => {
                     <div
                         key={bank.id}
                         className={`flex items-center p-4 border rounded-lg cursor-pointer transition mt-4 ${selected === bank.id ? 'text-red-600 border-red-600' : 'border-gray-300'}`}
-                        onClick={() => handlePaymentbank(bank.id)} // Call navigate when clicked
+                        onClick={() => handlePaymentbank(bank.name)} // Call navigate when clicked
                     >
                         <Radio
                             checked={selected === bank.id}
-                            onChange={() => setSelected(bank.id)}
+                            onChange={() => setSelected(bank.name)}
                             className="mr-4 custom-radio"
                         />
                         <div className="w-full">
                             <p className="font-medium text-primary flex justify-between">
-                                {bank.bank_name}
+                                {bank.name}
                                 <img src={bank.img} alt={bank.bank_name} className="h-[15px] w-[20px]" />
                             </p>
                             <p className="text-sm text-gray-500">
-                                Pay From {bank.bank_name} Account Using {bank.bank_name} Payment Gateway
+                                Pay From {bank.name} Account Using {bank.name} Payment Gateway
                             </p>
                         </div>
                     </div>

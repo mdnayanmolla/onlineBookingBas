@@ -1,13 +1,13 @@
 [
     {
       "id": 1,
-      "bank_name": "MasterCard",
+      "name": "MasterCard",
       "description": "Pay From Visa Card Account Using Visa Payment Gateway",
       "img": "https://i.ibb.co.com/kDGLZpn/bd4f48ef-456f-4670-a17f-f2230a6315e3.png"
     },
     {
       "id": 2,
-      "bank_name": "Visa",
+      "name": "Visa",
       "description": "Pay From Visa Card Account Using Visa Payment Gateway",
       "img": "https://i.ibb.co.com/HFyKBHH/visa.png"
     }
