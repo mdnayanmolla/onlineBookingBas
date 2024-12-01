@@ -1,15 +1,11 @@
 
 
-const Click = () => {
-    const toggleSidebar = () => {
-        console.log('hello, I am clicked');
-    };
+// const Click = () => {
+//   
 
-    return (
-        <div onClick={toggleSidebar} className="bg-green-600">
-            Click Me
-        </div>
-    );
-};
+//     return (
+//       <></>
+//     );
+// };
 
-export default Click;
+// export default Click;

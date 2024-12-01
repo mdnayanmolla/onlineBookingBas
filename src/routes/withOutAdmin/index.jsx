@@ -16,6 +16,7 @@ import SearchData from "../../container/searchData/SearchData";
 import SelectSeat from "../../container/selectSeat/SelectSeat";
 import Payment from "../../payment/Payment";
 import AddBank from "../../payment/AddBank";
+import CheckTicket from "../../container/tickets/CheckTicket";
 // import SignUp from "../../authentication/SignUp";
 
 
@@ -39,6 +40,7 @@ const Index = () => {
             <Route path="/select-seat" element={<SelectSeat/>}/>
             <Route path="/payment" element={<Payment/>} />
             <Route path="/add-bank/:name" element={<AddBank/>} />
+            <Route path="/check-ticket" element={<CheckTicket/>}/>
         
         </Routes>
     );

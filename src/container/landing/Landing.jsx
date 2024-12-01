@@ -4,9 +4,7 @@ import WhiteBtn from '../../components/buttons/WhiteBtn';
 import ladingImg from '../../static/img/landing.svg';
 
 const Landing = () => {
-    const toggleSidebar = () => {
-        console.log('hello, I am clicked');
-    };
+
 
     return (
         <div className="h-screen py-6 px-4">
@@ -19,7 +17,6 @@ const Landing = () => {
                     <p>I m an early bird and I m a night owl, so I m wise and I have worms.</p>
                 </div>
                 <div className="space-y-4">
-                    <p onClick={toggleSidebar}> click me</p>
                     <div>
                         <Primarybtn  title="CREATE AN ACCOUNT" />
                     </div>

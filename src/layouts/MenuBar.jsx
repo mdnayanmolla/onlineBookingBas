@@ -6,7 +6,7 @@ import { FaRegUser } from "react-icons/fa";
 
 const MenuBar = () => {
     return (
-        <div className="bg-primary py-2 fixed bottom-0 mb-6 left-4 right-4 w-auto rounded-lg">
+        <div className="bg-primary py-2 fixed bottom-0 mb-2 left-4 right-4 w-auto rounded-lg">
             <div className="flex justify-between py-2 items-center px-5">
                 <NavLink
                     exact

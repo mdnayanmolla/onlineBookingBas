@@ -26,7 +26,7 @@ const TopNavbar = ({ title }) => {
                     </button>
                 </div>
             </div>
-            {isSidebarVisible && <Sidebar toggleSidebar={toggleSidebar} />}
+            {isSidebarVisible && <Sidebar toggleSidebar={toggleSidebar} isSidebarVisible={isSidebarVisible} />}
         </div>
     );
 };

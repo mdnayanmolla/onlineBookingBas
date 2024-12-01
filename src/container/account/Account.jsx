@@ -7,7 +7,7 @@ import Primarybtn from "../../components/buttons/Primarybtn";
 
 const Account = () => {
     return (
-        <div className="relative mb-24">
+        <div className="relative mb-32">
             <TopNavbar title="My Profile" />
             <div className="bg-[#f8f9fa] px-4 py-4">
                 <div className="flex justify-center">

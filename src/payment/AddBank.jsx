@@ -18,9 +18,7 @@ const AddBank = () => {
         console.log('click');
         setIsModalVisible(true);
     }
-    const handleCancel = () => {
-        setIsModalVisible(false);
-    };
+   
 
     // console.log('bankData',bankData)
     useEffect(() => {
@@ -108,13 +106,11 @@ const AddBank = () => {
                     <button onClick={showModal} className='bg-primary w-full py-2 text-white rounded-lg text-center my-4'>Play</button>
                 </Form>
                 <Modal
-                    title="Custom Modal"
                     visible={isModalVisible}  // Modal visibility controlled by state
-                    onOk={() => console.log('OK clicked')}  // Action when OK is clicked
-                    onCancel={handleCancel}  // Action when Cancel is clicked
-                    okText="Confirm"
-                    cancelText="Cancel"
                     width={600}  // You can adjust the width as needed
+                    footer={null} // Removes the footer
+                    title={null} // Removes the header
+                    closable={false} // Removes the close icon
                 >
                     {/* Modal content */}
                     <PaymentConfirm />  {/* Displaying the CustomComponent inside the modal */}
