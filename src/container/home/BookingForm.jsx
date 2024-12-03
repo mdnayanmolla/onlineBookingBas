@@ -43,11 +43,12 @@ const BookingForm = () => {
             busItem.to === to &&
             busItem.start_date === formattedDate // Compare with "9 November" format
         );
+        console.log('result',result);
         setFilterBuses(result);
         if(result.length === 0){
             navigate('/not-found')
         }else{
-            navigate('/search-result', { state: { buses: result } });
+            navigate(`/${from}/${to}`, { state: { buses: result } });
         }
         form.resetFields()
     };
