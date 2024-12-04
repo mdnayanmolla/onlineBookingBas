@@ -34,7 +34,7 @@ const Index = () => {
             <Route path="/notification" element={<Notification/>}/>
             <Route path="/account" element={<Account/>}/>
             <Route path="/listing" element={<Listing/>}/>
-            <Route path="/bus-details" element={<BusDatiles/>}/>
+            <Route path="/:name" element={<BusDatiles/>}/>
             <Route path="/not-found" element={<ErrorPage/>}/>
             <Route path="/:from/:to" element={<SearchData />} />
             <Route path="/select-seat" element={<SelectSeat/>}/>

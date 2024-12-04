@@ -26,8 +26,7 @@ const AddBank = () => {
             try {
                 // Fetch the bank data from the correct path in the public folder
                 const response = await axios.get('/jsonData/paymentBank.json'); // Correct root path for public folder
-                // if (Array.isArray(response.data)) {
-                // Use toString() if id is a number in the JSON file
+              
                 const foundBank = response.data.find(bank => bank.name.toString() === name);
                 if (foundBank) {
                     setBankData(foundBank);

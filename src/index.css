@@ -38,12 +38,14 @@
 .ant-tabs-tab-btn {
   margin: 5 !important;
   padding: 10px !important;
-  /* @apply bg-primary text-white; */
+  background: transparent;
+  border-radius: 5px!important;
   @apply text-primary ;
 }
 .ant-tabs-tab-btn:hover {
-  @apply bg-primary text-white;
-  color: #fff !important; /* Ensure text color remains white */
+  color: #1677ff !important; /* Ensure text color remains white */
+  border-radius: 5px!important;
+  background: transparent;
 }
 /* Remove padding and margin from the nav list */
 .ant-tabs-nav-list {
@@ -76,7 +78,8 @@
 .ant-tabs-tab-active .ant-tabs-tab-btn {
   @apply bg-primary text-white;
   color: #fff !important; /* Ensure text color remains white */
-  border:none !important
+  border:none !important;
+
 }
 
 /* Remove borders from all Ant Design tabs */
@@ -95,12 +98,12 @@
 }
 /* Customize the tab content background */
 .ant-tabs-content-holder {
-  @apply bg-primary text-white;
+  @apply  text-white;
 }
 
 /* Optional: Adjust the tab appearance when hovered */
 .ant-tabs-tab:hover {
-  @apply bg-primary text-white;
+  @apply  text-white;
 }
 
 .sidebar-item {
@@ -128,7 +131,7 @@
   border: 2px solid #edf1f4; /* Adds space around the thumb */
 }
 
-@layer base {
+@layer components {
   /* Custom global styles */
   
   /* Reset for all elements */

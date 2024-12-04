@@ -10,9 +10,10 @@ import PropTypes from 'prop-types';
 const ListData = ({ busItem }) => {
     // console.log('busItem', busItem)
     const { name, from, to, type, seat_type, image, start_time } = busItem;
+    
     return (
         <div>
-            <Link to="/bus-details">
+            <Link to={`/${name}`}>
                 <div className="px-4  py-4 space-y-3 border my-4">
                     <div className="bg-[#e8ebef] rounded-md">
                         <img src={image} alt="" />
