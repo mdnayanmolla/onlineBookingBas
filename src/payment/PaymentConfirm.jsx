@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import wallet from '../static/img/6aef1ae7-059c-4d1e-9c6e-37584c0ffd49.png'
 
 const PaymentConfirm = () => {
@@ -8,7 +9,9 @@ const PaymentConfirm = () => {
              </div>
             <h6 className='text-[#444444]'>Payment Success!</h6>
             <p>The system is waiting for  the ticket</p>
+            <Link to='/check-ticket'>
             <button className='bg-primary text-white px-4 py-1 my-2 rounded-md'>Check Your Ticket</button>
+            </Link>
         </div>
     );
 };

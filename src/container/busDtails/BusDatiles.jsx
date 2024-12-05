@@ -10,6 +10,8 @@ import { IoInformationCircle } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import { IoReload } from "react-icons/io5";
 import axios from "axios";
+// import Button from "../../components/Button";
+import Primarybtn from "../../components/buttons/Primarybtn";
 
 const { TabPane } = Tabs;
 
@@ -196,6 +198,11 @@ const BusDatiles = () => {
                         </TabPane>
                     </Tabs>
                 </div>
+            </div>
+            <div className=" px-4 mt-5">
+                <Link to='/select-seat'>
+                    <Primarybtn title='Book Your Seat Now' />
+                </Link>
             </div>
         </div>
     );

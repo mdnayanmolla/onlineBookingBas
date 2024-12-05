@@ -130,7 +130,7 @@ const SelectSeat = () => {
                 </div>
             </div>
             <div className="bg-primary py-2 fixed bottom-0 mb-[30px] left-4 right-4 w-auto rounded-lg">
-                <Link to="/landing">
+                <Link to="/payment">
                    <div className="flex items-center justify-between text-white px-4">
                      <p className="text-white"> 
                         TOTAL $790 <br></br>
