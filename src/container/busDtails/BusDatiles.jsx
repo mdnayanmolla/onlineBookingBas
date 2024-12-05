@@ -28,7 +28,7 @@ const BusDatiles = () => {
     useEffect(() => {
         async function fetchBus() {
             try {
-                const response = await axios.get('public/jsonData/busList.json');
+                const response = await axios.get('src/jsonData/busList.json');
                 const foundBus = response.data.find(bus => bus.name.toString() === name);
                 if (foundBus) {
                     setBusDetail(foundBus)

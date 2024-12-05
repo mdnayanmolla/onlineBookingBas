@@ -25,7 +25,7 @@ const AddBank = () => {
         const fetchBankData = async () => {
             try {
                 // Fetch the bank data from the correct path in the public folder
-                const response = await axios.get('/jsonData/paymentBank.json'); // Correct root path for public folder
+                const response = await axios.get('src/jsonData/paymentBank.json'); // Correct root path for public folder
               
                 const foundBank = response.data.find(bank => bank.name.toString() === name);
                 if (foundBank) {

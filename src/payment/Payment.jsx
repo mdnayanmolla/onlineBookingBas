@@ -12,7 +12,7 @@ const Payment = () => {
     useEffect(() => {
         async function fetchPaymentBank() {
             try {
-                const response = await axios.get('public/jsonData/paymentBank.json');
+                const response = await axios.get('src/jsonData/paymentBank.json');
                 setPaymentBank(response.data);
             } catch (error) {
                 console.error("Error fetching data:", error);
