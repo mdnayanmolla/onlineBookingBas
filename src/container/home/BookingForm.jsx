@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import { Form, Select, DatePicker } from "antd";
 import { Option } from "antd/es/mentions";
 import { TbMapSearch } from "react-icons/tb";
@@ -20,15 +20,23 @@ const BookingForm = () => {
 
 console.log('bus',bus);
 
+
+
+async function fetchBusData() {
+    // try {
+    //     const response = await axios.get('src/jsonData/busList.json');
+    //     setBus(response.data);
+    // } catch (error) {
+    //     console.error("Error fetching data:", error);
+    // }
+    fetch('src/jsonData/busList.json')
+    .then(res => res.json())
+    .then(data => {
+        setBus(data)
+        console.log('data',data);
+    })
+}
     useEffect(() => {
-        async function fetchBusData() {
-            try {
-                const response = await axios.get('src/jsonData/busList.json');
-                setBus(response.data);
-            } catch (error) {
-                console.error("Error fetching data:", error);
-            }
-        }
         fetchBusData();
     }, []);
 
